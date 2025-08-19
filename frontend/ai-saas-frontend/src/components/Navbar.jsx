@@ -238,7 +238,7 @@ export default function Navbar() {
               ) : (
                 <button 
                   onClick={handleGoogleLogin}
-                  className="rounded-xl border px-4 py-2"
+                  className="rounded-xl border px-4 py-2 hover:bg-green-100 hover:text-black"
                 >
                   Join with Google
                 </button>
